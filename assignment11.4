@@ -6,5 +6,9 @@
 2. Write a hive query to find which is the cheapest Condo in CA. name the city,street and price for the Condo.
   result
 3. Write a hive query to list top 5 residency details which lie in the budget of 60000-120000, an area more than 1450,
-sold after 17th may, min bedroom 3 and, min bathroom 2.
+  sold after 17th may, min bedroom 3 and, min bathroom 2.
   it has only one result matching constraints
+4. Write a hive query to separate list of residential apartments with more than 2 beds. Also include columns in following order City,Baths,Sq_feet,Price,flat_type,Beds respectively
+  step 1: creating a separate table Resident_2BHK using partitioning to separate list with >2 beds
+  and inserting into the table with given constraint
+  Step 2: result
